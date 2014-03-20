@@ -1,0 +1,9 @@
+bs = 0
+nx = 1000
+ny = 1000
+k = 0.3   
+nsteps = 5
+wstep = 5
+delay_dur = 0.2
+delay_per_mean = 0.2
+delay_per_stddev = 0.0001

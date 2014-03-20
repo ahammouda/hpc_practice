@@ -1,0 +1,6 @@
+nx = 1000
+ny = 1000
+kx = 0.3   
+ky = 0.3
+nsteps = 5
+wstep = 2

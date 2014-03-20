@@ -1,0 +1,25 @@
+Homework 3
+due: Friday, Feb 4
+
+Write a parallel version of the explicit time-dependent heat equation code
+that we prototyped in serial in class. 
+
+Include the following:
+ - an implementation using both blocking and non-blocking communication
+ - a 2d spatial decomposition that minimizes local work/communication
+ - ability to run on any number of processors, though as usual
+   you can restrict the grid to simplify the bookeeping
+ - an i/o strategy that writes output files in the same order
+   as the serial code
+ - strong and weak scaling studies on fd
+ - global calculation of total "energy" sum(T^2) every selected
+   number of timesteps
+- an input parameter file (rather than argc/argv)
+- 2d gaussian initial condition
+- graphics of the solution (including code that produced it)
+
+Do not worry about:
+  - making your code run for any arbitrary number of procs. It
+    is ok to specify that it can only run on even numbers, powers
+    of two, etc. But you must document it and do error checking within
+    program
